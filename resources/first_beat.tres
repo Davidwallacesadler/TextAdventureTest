@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="StoryBeat" load_steps=4 format=3 uid="uid://dwji803gn33bh"]
+
+[ext_resource type="Resource" uid="uid://jxocf0eay12j" path="res://resources/second_beat_a.tres" id="1_fa0j6"]
+[ext_resource type="Script" path="res://story_beat.gd" id="1_wvy6t"]
+[ext_resource type="Resource" uid="uid://csnj2uu4gnblo" path="res://resources/second_beat_b.tres" id="2_xyq5a"]
+
+[resource]
+script = ExtResource("1_wvy6t")
+story_text = "As you peer out the window you can see the faint outline of a figure in a crimson red coat. You pull the shades and duck out of the way. The wall reverberates as the figure knocks."
+choice_text = ""
+choices = Array[ExtResource("1_wvy6t")]([ExtResource("1_fa0j6"), ExtResource("2_xyq5a")])
